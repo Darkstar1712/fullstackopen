@@ -1,0 +1,14 @@
+note over browser:
+User clicks submit
+Event listener is triggered and a new note is created
+Note is added to the notes list and the list is redrawn on the page
+Note is sent to server as json data
+end note
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa \n JSON {content: "note" date: "date"}
+note over server:
+server responds status code 201 created
+end note
+server-->browser: JSON {"message":"note created"}
+note over browser:
+browser doesn't reload and stays on same page
+end note
