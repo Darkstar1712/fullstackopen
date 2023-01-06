@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
-const Button = (props) => 
-    <button onClick={props.onClick}>{props.text}</button>
+const Button = ( {onClick, text} ) => 
+    <button onClick={onClick}>{text}</button>
 
 const StatisticsLine = ( { text, value }) => 
   <tr>
@@ -11,18 +11,10 @@ const StatisticsLine = ( { text, value }) =>
 
 const Statistics = ({ good, neutral, bad, all }) => {
   const calculateAverage = () => {
-    if (all === 0) {
-      return "0"
-    }
-
-    return (good - bad) / all
+        return (good - bad) / all
   }
 
   const calculatePositive = () => {
-    if (all === 0) {
-      return "0 %"
-    }
-
     return good / all * 100 + " %"
   }
 
