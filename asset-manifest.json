@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/fullstackopen/unicafe/static/js/main.d6c7c87f.js",
-    "index.html": "/fullstackopen/unicafe/index.html",
-    "main.d6c7c87f.js.map": "/fullstackopen/unicafe/static/js/main.d6c7c87f.js.map"
+    "main.js": "/fullstackopen/part1/courseinfo/static/js/main.d70a331a.js",
+    "index.html": "/fullstackopen/part1/courseinfo/index.html",
+    "main.d70a331a.js.map": "/fullstackopen/part1/courseinfo/static/js/main.d70a331a.js.map"
   },
   "entrypoints": [
-    "static/js/main.d6c7c87f.js"
+    "static/js/main.d70a331a.js"
   ]
 }
