@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/fullstackopen/static/js/main.d6c7c87f.js",
-    "index.html": "/fullstackopen/index.html",
-    "main.d6c7c87f.js.map": "/fullstackopen/static/js/main.d6c7c87f.js.map"
+    "main.js": "/fullstackopen/part1/unicafe/static/js/main.d6c7c87f.js",
+    "index.html": "/fullstackopen/part1/unicafe/index.html",
+    "main.d6c7c87f.js.map": "/fullstackopen/part1/unicafe/static/js/main.d6c7c87f.js.map"
   },
   "entrypoints": [
     "static/js/main.d6c7c87f.js"
